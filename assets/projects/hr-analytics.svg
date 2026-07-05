@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0d1320"/>
+  <g stroke="#1c2333" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+  </g>
+
+  <!-- KPI cards -->
+  <rect x="32" y="28" width="170" height="74" rx="8" fill="#111827" stroke="#232c40"/>
+  <text x="50" y="58" fill="#5b6678" font-family="monospace" font-size="13">HEADCOUNT</text>
+  <text x="50" y="86" fill="#e6e9f0" font-family="monospace" font-size="26" font-weight="700">1,470</text>
+
+  <rect x="218" y="28" width="170" height="74" rx="8" fill="#111827" stroke="#232c40"/>
+  <text x="236" y="58" fill="#5b6678" font-family="monospace" font-size="13">ATTRITION</text>
+  <text x="236" y="86" fill="#a78bfa" font-family="monospace" font-size="26" font-weight="700">16.1%</text>
+
+  <rect x="404" y="28" width="170" height="74" rx="8" fill="#111827" stroke="#232c40"/>
+  <text x="422" y="58" fill="#5b6678" font-family="monospace" font-size="13">AVG. AGE</text>
+  <text x="422" y="86" fill="#e6e9f0" font-family="monospace" font-size="26" font-weight="700">36.9</text>
+
+  <rect x="590" y="28" width="178" height="74" rx="8" fill="#111827" stroke="#232c40"/>
+  <text x="608" y="58" fill="#5b6678" font-family="monospace" font-size="13">AVG. SATISFACTION</text>
+  <text x="608" y="86" fill="#22d3ee" font-family="monospace" font-size="26" font-weight="700">3.4 / 4</text>
+
+  <!-- Department headcount bars (horizontal) -->
+  <rect x="32" y="120" width="330" height="300" rx="8" fill="#111827" stroke="#232c40"/>
+  <text x="52" y="150" fill="#8b97ad" font-family="monospace" font-size="14">HEADCOUNT BY DEPARTMENT</text>
+  <g fill="#22d3ee">
+    <rect x="160" y="172" width="180" height="26" rx="3"/>
+    <rect x="160" y="214" width="120" height="26" rx="3" fill="#a78bfa"/>
+    <rect x="160" y="256" width="70" height="26" rx="3"/>
+    <rect x="160" y="298" width="40" height="26" rx="3" fill="#a78bfa"/>
+  </g>
+  <g fill="#8b97ad" font-family="monospace" font-size="12">
+    <text x="60" y="190">RESEARCH &amp; DEV</text>
+    <text x="60" y="232">SALES</text>
+    <text x="60" y="274">TECHNICAL</text>
+    <text x="60" y="316">HUMAN RES.</text>
+  </g>
+
+  <!-- Attrition donut -->
+  <rect x="378" y="120" width="390" height="300" rx="8" fill="#111827" stroke="#232c40"/>
+  <text x="398" y="150" fill="#8b97ad" font-family="monospace" font-size="14">ATTRITION BY AGE GROUP</text>
+  <g transform="translate(490,290)">
+    <circle r="80" fill="none" stroke="#1c2333" stroke-width="26"/>
+    <circle r="80" fill="none" stroke="#a78bfa" stroke-width="26" stroke-dasharray="180 502"/>
+    <circle r="80" fill="none" stroke="#22d3ee" stroke-width="26" stroke-dasharray="160 502" stroke-dashoffset="-180"/>
+    <circle r="80" fill="none" stroke="#3b4660" stroke-width="26" stroke-dasharray="162 502" stroke-dashoffset="-340"/>
+    <text x="0" y="6" fill="#e6e9f0" font-family="monospace" font-size="20" text-anchor="middle" font-weight="700">16.1%</text>
+  </g>
+  <g font-family="monospace" font-size="12" fill="#8b97ad">
+    <rect x="620" y="200" width="10" height="10" fill="#a78bfa"/>
+    <text x="638" y="210">18-25</text>
+    <rect x="620" y="226" width="10" height="10" fill="#22d3ee"/>
+    <text x="638" y="236">26-35</text>
+    <rect x="620" y="252" width="10" height="10" fill="#3b4660"/>
+    <text x="638" y="262">36+</text>
+  </g>
+</svg>

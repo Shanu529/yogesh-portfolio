@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yogesh Gariya | Data Analyst &amp; Power BI Developer</title>
+  <meta name="description"
+    content="Portfolio of Yogesh Gariya — Aspiring Data Analyst & Power BI Developer specializing in dashboards, DAX, SQL and Python." />
+
+  <!-- Google Fonts: Space Grotesk (headings), Inter (body), JetBrains Mono (data/labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- =========================================
+       NAVIGATION BAR
+       Sticky navbar with smooth-scroll links
+       ========================================= -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">YG<span>.</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+        <!-- CTA button shown inside the mobile menu -->
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-primary btn-small" style="color: black;">Let's Talk</a>
+        </div>
+      </nav>
+
+      <!-- Hamburger button for mobile -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================
+         1. HERO SECTION
+         ========================================= -->
+    <!-- <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-tag">
+          <span class="dot"></span>
+          Open to Data Analyst &amp; Power BI Internships
+        </div>
+
+        <h1>Yogesh Gariya</h1>
+
+        <p class="hero-role">
+          Aspiring Data Analyst
+          <span class="pipe">|</span>
+          <span class="highlight-cyan">Power BI</span>
+          <span class="pipe">•</span>
+          <span class="highlight-cyan">SQL</span>
+          <span class="pipe">•</span>
+          <span class="highlight-purple">Python</span>
+        </p>
+
+        <p class="lead">
+          I turn raw, messy data into clear business dashboards. Currently a BCA student
+          building a portfolio of Power BI projects — from data cleaning and DAX modeling
+          to interactive, decision-ready reports.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#resume" class="btn">Resume</a>
+          <a href="https://github.com/yogicode519" target="_blank" rel="noopener noreferrer"
+            class="btn btn-ghost">GitHub</a>
+          <a href="https://linkedin.com/in/yogesh-gariya" target="_blank" rel="noopener noreferrer"
+            class="btn btn-ghost">LinkedIn</a>
+        </div>
+      </div>
+    </section> -->
+    <section id="home" style="padding:90px 0;">
+      <div class="container">
+
+        <div style="
+        display:flex;
+        
+        align-items:center;
+        justify-content:space-between;
+        gap:50px;
+        flex-wrap:wrap;
+      ">
+
+          <!-- Text -->
+          <div style="
+          flex:1;
+          
+          min-width:300px;
+        ">
+            <div class="hero-tag">
+              <span class="dot"></span>
+              Open to Data Analyst &amp; Power BI Internships
+            </div>
+
+            <h1>Yogesh Gariya</h1>
+
+            <p class="hero-role">
+              Aspiring Data Analyst
+              <span class="pipe">|</span>
+              <span class="highlight-cyan">Power BI</span>
+              <span class="pipe">•</span>
+              <span class="highlight-cyan">SQL</span>
+              <span class="pipe">•</span>
+              <span class="highlight-purple">Python</span>
+            </p>
+
+            <p class="lead">
+              I turn raw, messy data into clear business dashboards.
+              Currently a BCA student building a portfolio of Power BI
+              projects—from data cleaning and DAX modeling to interactive,
+              decision-ready reports.
+            </p>
+
+            <div class="hero-actions hero-mobile-hide" style="
+            display:flex;
+            flex-wrap:wrap;
+            margin-top: 20px;
+            gap:10px;
+          ">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#resume" class="btn">Resume</a>
+
+              <a href="https://github.com/yogicode519" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+                GitHub
+              </a>
+
+              <a href="https://linkedin.com/in/yogesh-gariya" target="_blank" rel="noopener noreferrer"
+                class="btn btn-ghost">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div style="
+          flex:1;
+          min-width:300px;
+          text-align:center;
+        ">
+            <img src="assets/projects/dashboard-hero.jpg" alt="Analytics Dashboard" style="
+            width:100%;
+            max-width:600px;
+            border-radius:20px;
+            display:block;
+            margin:auto;
+          " />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         2. ABOUT SECTION
+         ========================================= -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Left: quick-facts card, dashboard style -->
+          <div class="about-card reveal">
+            <div class="label">// Quick Facts</div>
+            <div class="about-stat">
+              <span>Role</span>
+              <span>Data Analyst (Aspiring)</span>
+            </div>
+            <div class="about-stat">
+              <span>Education</span>
+              <span>BCA, 2nd Year</span>
+            </div>
+            <div class="about-stat">
+              <span>Focus</span>
+              <span>Power BI &amp; SQL</span>
+            </div>
+            <div class="about-stat">
+              <span>Location</span>
+              <span>India</span>
+            </div>
+            <div class="about-stat">
+              <span>Status</span>
+              <span>Open to Internships</span>
+            </div>
+          </div>
+
+          <!-- Right: about text -->
+          <div class="about-text reveal">
+            <div class="eyebrow">About Me</div>
+            <h2 class="section-title" style="margin-bottom: 24px;">
+              Learning to turn data into <span class="gradient-text">decisions</span>
+            </h2>
+            <p>
+              I'm a second-year <strong>BCA student</strong> with a growing focus on data analytics
+              and business intelligence. Over the past months I've been building practical skills in
+              <strong>Power BI, SQL, Python, and Excel</strong> — not just the tools themselves, but how
+              to use them to answer real business questions.
+            </p>
+            <p>
+              My work centers on <strong>business-focused dashboards</strong>: cleaning messy datasets,
+              writing DAX measures, and designing reports that highlight the metrics that actually
+              matter to decision-makers — from customer churn to loan performance to workforce trends.
+            </p>
+            <p>
+              I'm currently building out a portfolio of end-to-end analytics projects and actively
+              looking for <strong>internship and entry-level opportunities</strong> where I can apply
+              these skills on real data.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         3. SKILLS SECTION
+         ========================================= -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Toolkit</div>
+          <h2 class="section-title">Skills &amp; Tools</h2>
+          <p class="section-sub">
+            The core tools and techniques I use to clean data, build models, and design dashboards.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-pill reveal"><span class="skill-dot"></span>Power BI</div>
+          <div class="skill-pill reveal"><span class="skill-dot"></span>SQL</div>
+          <div class="skill-pill reveal"><span class="skill-dot"></span>Python</div>
+          <div class="skill-pill reveal"><span class="skill-dot"></span>Excel</div>
+          <div class="skill-pill reveal"><span class="skill-dot"></span>DAX</div>
+          <div class="skill-pill reveal"><span class="skill-dot"></span>Data Cleaning</div>
+          <div class="skill-pill reveal"><span class="skill-dot"></span>Data Visualization</div>
+          <div class="skill-pill reveal"><span class="skill-dot"></span>Dashboard Design</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         4. PROJECTS SECTION (DYNAMIC)
+         Project cards are generated automatically
+         by js/script.js using the data in
+         js/projects-data.js. To add a project,
+         edit that file only.
+         ========================================= -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Portfolio</div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-sub">
+            A selection of Power BI dashboards built around real-world business problems —
+            each with the dataset, DAX measures, and design choices documented.
+          </p>
+        </div>
+
+        <!-- Cards are injected here by script.js -->
+        <div class="projects-grid">
+          <!-- "More projects coming soon" placeholder card -->
+          <article class="project-card coming-soon reveal">
+            <div class="project-body">
+              <h3 class="project-title">More Projects Coming Soon</h3>
+              <p class="project-desc">
+                New dashboards are added regularly as part of an ongoing portfolio build.
+                Check back soon, or explore the GitHub profile for in-progress work.
+              </p>
+              <a href="https://github.com/yogicode519" target="_blank" rel="noopener noreferrer"
+                class="btn btn-small btn-ghost">Visit GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         5. RESUME SECTION
+         ========================================= -->
+    <section class="resume" id="resume">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Resume</div>
+          <h2 class="section-title">Download My Resume</h2>
+        </div>
+
+        <div class="resume-card reveal">
+          <div class="resume-text">
+            <h3>One-page, ATS-friendly resume</h3>
+            <p>
+              A concise summary of my education, technical skills, and project work —
+              formatted for both recruiters and applicant tracking systems.
+              <br />
+              <em>(Replace <code>assets/resume.pdf</code> with your actual resume file.)</em>
+            </p>
+          </div>
+          <a href="assets/resume.pdf" download class="btn btn-primary">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         6. CONTACT SECTION
+         ========================================= -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Get In Touch</div>
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-sub">
+            Have an opportunity, internship, or project in mind? I'd love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct contact links -->
+          <div class="contact-links reveal">
+            <a href="mailto:yogesh.gariya@example.com" class="contact-link">
+              <span class="icon">@</span>
+              <span class="meta">
+                <div class="title">Email</div>
+                <div class="sub">yogesh.gariya@example.com</div>
+              </span>
+            </a>
+            <a href="https://linkedin.com/in/yogesh-gariya" target="_blank" rel="noopener noreferrer"
+              class="contact-link">
+              <span class="icon">in</span>
+              <span class="meta">
+                <div class="title">LinkedIn</div>
+                <div class="sub">linkedin.com/in/yogesh-gariya</div>
+              </span>
+            </a>
+            <a href="https://github.com/yogicode519" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <span class="icon">&lt;/&gt;</span>
+              <span class="meta">
+                <div class="title">GitHub</div>
+                <div class="sub">github.com/yogicode519</div>
+              </span>
+            </a>
+          </div>
+
+          <div class="contact-form reveal">
+            <div class="resume-card">
+              <div class="resume-text">
+                <h3>Send Me an Email</h3>
+                <p>
+                  Interested in an internship, project, or collaboration?
+                  Click the button below and your email app will open with my email address already filled in.
+                </p>
+              </div>
+
+              <a href="mailto:yogesh.gariya@example.com?subject=Opportunity%20Inquiry" class="btn btn-primary">
+                Email Me
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================
+       FOOTER
+       ========================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-left">
+        Designed &amp; built by <span>Yogesh Gariya</span> · &copy; <span id="year"></span>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/yogicode519" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/yogesh-gariya" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#home">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project data first, then the main script that reads it -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    // Auto-update the copyright year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
