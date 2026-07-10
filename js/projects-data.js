@@ -260,6 +260,139 @@ const projectsData = [
     "Advanced Excel Reporting"
   ]
 }
+,
+
+{
+  id: "superstore-sales",
+
+  title: "Super Store Sales Dashboard",
+
+  status: "Completed",
+
+  description:
+    "Interactive Power BI dashboard analyzing superstore sales performance, profitability, customer segments, payment methods, regional trends, and a 15-day sales forecast to support business decision-making.",
+
+  image: "assets/projects/superstore-img/1st.png",
+
+  screenshots: [
+    "assets/projects/superstore-img/1st.png",
+    "assets/projects/superstore-img/2nd.png",
+    "assets/projects/superstore-img/3rd.png",
+    "assets/projects/superstore-img/4th.png",
+    "assets/projects/superstore-img/5th.png"
+  ],
+
+  youtube:
+    "https://www.youtube.com/embed/A1CfdYbeY6Y?autoplay=1&mute=1",
+
+  github:
+    "https://github.com/Yogesh8979/Superstore_Sales_Dashboard",
+
+  linkedin:
+    "https://linkedin.com/in/yogesh-gariya",
+
+  docs:
+    "https://github.com/Yogesh8979/Superstore_Sales_Dashboard",
+
+  tech: [
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "Bing Maps",
+    "Power BI Forecasting"
+  ],
+
+  businessProblem: [
+    "A retail superstore needed a unified dashboard to monitor sales performance, profitability, customer behavior, and regional trends.",
+    "Analyze sales across regions, categories, customer segments, payment modes, and product sub-categories to identify key revenue drivers.",
+    "Forecast future sales using historical order data to support inventory planning and business decisions.",
+    "Provide interactive business insights that help improve profitability, operational efficiency, and strategic planning."
+  ],
+
+  features: [
+    "Sales Performance Dashboard",
+    "15-Day Sales Forecast",
+    "Regional & Category Analysis",
+    "Customer Segment & Payment Analysis"
+  ],
+
+  challenges: [
+    "Building accurate forecasting models using historical sales data",
+    "Designing an interactive dashboard with multiple business KPIs and visualizations"
+  ],
+
+  learnings: [
+    "Retail Sales Analytics",
+    "Power BI Forecasting",
+    "Advanced DAX Measures",
+    "Business Intelligence Dashboard Design"
+  ]
+},
+
+
+{
+  id: "hr-analytics",
+
+  title: "HR Analytics Dashboard",
+
+  status: "Completed",
+
+  description:
+    "Interactive Power BI dashboard analyzing employee attrition, workforce demographics, salary trends, job roles, and retention risks to help HR teams make data-driven workforce decisions.",
+
+  image: "assets/projects/hr-analytics-img/1st.png",
+
+  screenshots: [
+    "assets/projects/hr-analytics-img/1st.png",
+    "assets/projects/hr-analytics-img/2nd.png",
+    "assets/projects/hr-analytics-img/3rd.png",
+    "assets/projects/hr-analytics-img/4th.png"
+  ],
+
+  youtube:
+    "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+
+  github:
+    "https://github.com/Yogesh8979/HR_Analytics_Dashboard",
+
+  linkedin:
+    "https://linkedin.com/in/yogesh-gariya",
+
+  docs:
+    "https://github.com/Yogesh8979/HR_Analytics_Dashboard",
+
+  tech: [
+    "Power BI",
+    "DAX",
+    "Power Query"
+  ],
+
+  businessProblem: [
+    "HR teams lack a centralized view to identify employee attrition patterns and the factors driving workforce turnover.",
+    "Analyze employee attrition across departments, age groups, salary bands, job roles, and years at the company.",
+    "Identify high-risk employee segments using interactive dashboards and workforce analytics.",
+    "Provide actionable insights to improve employee retention, engagement, and strategic HR planning."
+  ],
+
+  features: [
+    "Employee Attrition Dashboard",
+    "Department & Job Role Analysis",
+    "Salary & Age Group Insights",
+    "Employee Retention Analytics"
+  ],
+
+  challenges: [
+    "Cleaning and transforming HR workforce data",
+    "Building interactive attrition KPIs and workforce visualizations"
+  ],
+
+  learnings: [
+    "HR Analytics",
+    "Employee Attrition Analysis",
+    "Power BI Dashboard Development",
+    "Business Intelligence & Data Visualization"
+  ]
+}
 
 
   // {
